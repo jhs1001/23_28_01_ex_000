@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(71, 71, 71);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  height: 100%;
+}
+
+.side-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+}
+
+.panel {
+  background-color: black;
+  color: white;
+  border: 5px solid rgb(41, 41, 41);
+  width: 100%;
+  height: 100%;
+}
+
+.control-panel {
+  width: 100%; 
+  height: 100%;
+  background-color: rgb(113, 113, 113);
+  border: 5px solid rgb(41, 41, 41);
+}
